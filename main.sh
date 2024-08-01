@@ -177,6 +177,19 @@ EOF
 
 show_menu() {
     local choice
+    
+    echo -e "1. google_chrome"
+    echo -e "2. spotify"
+    echo -e "3. docker"
+    echo -e "4. gammastep"
+    echo -e "5. proton_vpn"
+    echo -e "6. steam"
+    echo -e "7. themes"
+    echo -e "8. telegram"
+    echo -e "9. megasync"
+    echo -e "10. vscode"
+    echo -e "11. fprint_reader"
+
     read -p "Enter choice: " choice
     case $choice in
         1) google_chrome;;
